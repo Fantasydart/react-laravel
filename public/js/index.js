@@ -97,8 +97,7 @@ var App_1 = __importDefault(__webpack_require__(/*! ./App */ "./resources/js/App
 
 __webpack_require__(/*! ./assets/scss/app.scss */ "./resources/js/assets/scss/app.scss");
 
-var portalDiv = document.getElementById('root');
-var root = client_1["default"].createRoot(portalDiv);
+var root = client_1["default"].createRoot(document.getElementById('app'));
 root.render(react_1["default"].createElement(App_1["default"], null));
 
 /***/ }),

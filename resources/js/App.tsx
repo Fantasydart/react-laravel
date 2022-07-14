@@ -8,7 +8,6 @@ import React from 'react'
 
 
 function App() {
-
     const [pizza, setPizza] = useState(pizzas)
     return (
         <div className="wrapper">
