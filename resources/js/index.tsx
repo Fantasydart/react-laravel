@@ -1,9 +1,10 @@
-import React from "react";
-import {render} from "react-dom";
-import App from "./components/App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './assets/scss/app.scss'
 
-
-render(
-    <App/>,
-    document.getElementById('app')
-)
+const portalDiv =  document.getElementById('root')!;
+const root = ReactDOM.createRoot(portalDiv);
+root.render(
+    <App />
+);
