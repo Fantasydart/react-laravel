@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/App.tsx":
-/*!******************************!*\
-  !*** ./resources/js/App.tsx ***!
-  \******************************/
+/***/ "./resources/js/react/App.tsx":
+/*!************************************!*\
+  !*** ./resources/js/react/App.tsx ***!
+  \************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -32,17 +32,17 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 
-var Header_1 = __importDefault(__webpack_require__(/*! ./components/Header */ "./resources/js/components/Header.jsx"));
+var Header_1 = __importDefault(__webpack_require__(/*! ./components/Header */ "./resources/js/react/components/Header.jsx"));
 
-var Categories_1 = __importDefault(__webpack_require__(/*! ./components/Categories */ "./resources/js/components/Categories.jsx"));
+var Categories_1 = __importDefault(__webpack_require__(/*! ./components/Categories */ "./resources/js/react/components/Categories.jsx"));
 
-var Sort_1 = __importDefault(__webpack_require__(/*! ./components/Sort */ "./resources/js/components/Sort.jsx"));
+var Sort_1 = __importDefault(__webpack_require__(/*! ./components/Sort */ "./resources/js/react/components/Sort.jsx"));
 
-var PizzaList_1 = __importDefault(__webpack_require__(/*! ./components/PizzaList */ "./resources/js/components/PizzaList.jsx"));
+var PizzaList_1 = __importDefault(__webpack_require__(/*! ./components/PizzaList */ "./resources/js/react/components/PizzaList.jsx"));
 
 var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var pizzas_1 = __importDefault(__webpack_require__(/*! ./pizzas */ "./resources/js/pizzas.js"));
+var pizzas_1 = __importDefault(__webpack_require__(/*! ./pizzas */ "./resources/js/react/pizzas.js"));
 
 var react_2 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
@@ -71,10 +71,10 @@ exports["default"] = App;
 
 /***/ }),
 
-/***/ "./resources/js/index.tsx":
-/*!********************************!*\
-  !*** ./resources/js/index.tsx ***!
-  \********************************/
+/***/ "./resources/js/react/index.tsx":
+/*!**************************************!*\
+  !*** ./resources/js/react/index.tsx ***!
+  \**************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -93,19 +93,19 @@ var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/r
 
 var client_1 = __importDefault(__webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js"));
 
-var App_1 = __importDefault(__webpack_require__(/*! ./App */ "./resources/js/App.tsx"));
+var App_1 = __importDefault(__webpack_require__(/*! ./App */ "./resources/js/react/App.tsx"));
 
-__webpack_require__(/*! ./assets/scss/app.scss */ "./resources/js/assets/scss/app.scss");
+__webpack_require__(/*! ./assets/scss/app.scss */ "./resources/js/react/assets/scss/app.scss");
 
 var root = client_1["default"].createRoot(document.getElementById('app'));
 root.render(react_1["default"].createElement(App_1["default"], null));
 
 /***/ }),
 
-/***/ "./resources/js/components/Categories.jsx":
-/*!************************************************!*\
-  !*** ./resources/js/components/Categories.jsx ***!
-  \************************************************/
+/***/ "./resources/js/react/components/Categories.jsx":
+/*!******************************************************!*\
+  !*** ./resources/js/react/components/Categories.jsx ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -157,17 +157,17 @@ var Categories = function Categories() {
 
 /***/ }),
 
-/***/ "./resources/js/components/Header.jsx":
-/*!********************************************!*\
-  !*** ./resources/js/components/Header.jsx ***!
-  \********************************************/
+/***/ "./resources/js/react/components/Header.jsx":
+/*!**************************************************!*\
+  !*** ./resources/js/react/components/Header.jsx ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _assets_img_pizza_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/pizza-logo.svg */ "./resources/js/assets/img/pizza-logo.svg");
+/* harmony import */ var _assets_img_pizza_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/pizza-logo.svg */ "./resources/js/react/assets/img/pizza-logo.svg");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -238,10 +238,10 @@ function Header() {
 
 /***/ }),
 
-/***/ "./resources/js/components/PizzaItem.jsx":
-/*!***********************************************!*\
-  !*** ./resources/js/components/PizzaItem.jsx ***!
-  \***********************************************/
+/***/ "./resources/js/react/components/PizzaItem.jsx":
+/*!*****************************************************!*\
+  !*** ./resources/js/react/components/PizzaItem.jsx ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -356,10 +356,10 @@ var PizzaItem = function PizzaItem(_ref) {
 
 /***/ }),
 
-/***/ "./resources/js/components/PizzaList.jsx":
-/*!***********************************************!*\
-  !*** ./resources/js/components/PizzaList.jsx ***!
-  \***********************************************/
+/***/ "./resources/js/react/components/PizzaList.jsx":
+/*!*****************************************************!*\
+  !*** ./resources/js/react/components/PizzaList.jsx ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _PizzaItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PizzaItem */ "./resources/js/components/PizzaItem.jsx");
+/* harmony import */ var _PizzaItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PizzaItem */ "./resources/js/react/components/PizzaItem.jsx");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
@@ -394,10 +394,10 @@ var PizzaList = function PizzaList(_ref) {
 
 /***/ }),
 
-/***/ "./resources/js/components/Sort.jsx":
-/*!******************************************!*\
-  !*** ./resources/js/components/Sort.jsx ***!
-  \******************************************/
+/***/ "./resources/js/react/components/Sort.jsx":
+/*!************************************************!*\
+  !*** ./resources/js/react/components/Sort.jsx ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -451,10 +451,10 @@ var Sort = function Sort() {
 
 /***/ }),
 
-/***/ "./resources/js/pizzas.js":
-/*!********************************!*\
-  !*** ./resources/js/pizzas.js ***!
-  \********************************/
+/***/ "./resources/js/react/pizzas.js":
+/*!**************************************!*\
+  !*** ./resources/js/react/pizzas.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -630,17 +630,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
@@ -728,10 +728,10 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ "./resources/js/assets/img/pizza-logo.svg":
-/*!************************************************!*\
-  !*** ./resources/js/assets/img/pizza-logo.svg ***!
-  \************************************************/
+/***/ "./resources/js/react/assets/img/pizza-logo.svg":
+/*!******************************************************!*\
+  !*** ./resources/js/react/assets/img/pizza-logo.svg ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -35453,19 +35453,19 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./resources/js/assets/scss/app.scss":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/scss/app.scss ***!
-  \*******************************************/
+/***/ "./resources/js/react/assets/scss/app.scss":
+/*!*************************************************!*\
+  !*** ./resources/js/react/assets/scss/app.scss ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./app.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./app.scss */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss");
 
             
 
@@ -35474,11 +35474,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -35849,7 +35849,7 @@ module.exports = function (list, options) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/js/index.tsx");
+/******/ 	var __webpack_exports__ = __webpack_require__("./resources/js/react/index.tsx");
 /******/ 	
 /******/ })()
 ;
