@@ -1,6 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const Sort = () => {
+
+    const [isFilter, setIsFilter] = useState(false);
+    const [activeFilter, setActiveFilter] = useState(0);
+    const sortList = ['популярности', 'цене', 'алфавиту']
+
+    const changeListFilter = (index) => {
+        setActiveFilter(index)
+        setIsFilter(!isFilter)
+    }
+
     return (
         <div className="sort">
             <div className="sort__label">
@@ -17,15 +27,23 @@ const Sort = () => {
                     />
                 </svg>
                 <b>Сортировка по:</b>
-                <span>популярности</span>
+                <span onClick={()=>setIsFilter(!isFilter)}>{sortList[activeFilter]}</span>
             </div>
-            <div className="sort__popup">
-                <ul>
-                    <li className="active">популярности</li>
-                    <li>цене</li>
-                    <li>алфавиту</li>
-                </ul>
-            </div>
+            {isFilter &&
+                <div className="sort__popup">
+                    <ul>
+                        {sortList.map((sortElement, index)=>
+                            <li
+                                key={index}
+                                onClick={()=>{
+                                    changeListFilter(index)
+                                }}
+                                className={index===activeFilter? 'active':''}
+                            >{sortElement}</li>
+                        )}
+                    </ul>
+                </div>
+            }
         </div>
     );
 };
