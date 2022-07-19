@@ -21,7 +21,9 @@
         </style>
     </head>
     <body>
+
           <div id="app"></div>
-          <script src="/js/app.js"></script>
+          <script src="/control/js/main.js"></script>
+          <script src="/control/js/index.js"></script>
     </body>
 </html>

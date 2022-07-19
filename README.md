@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## How to use project
+1. `composer instal`
+
+2. `npm i` or `yarn add`
+
+3. first terminal `npm run watch` or yarn (your webpack autocompile files)
+
+4. second terminal `php artisan serve` (you php webserver backend)
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
