@@ -23,7 +23,7 @@
     <body>
 
           <div id="app"></div>
-          <script src="/js/admin/admin.js"></script>
-          <script src="/js/admin/index.js"></script>
+          <script src="/js/control/admin.js"></script>
+          <script src="/js/control/index.js"></script>
     </body>
 </html>
