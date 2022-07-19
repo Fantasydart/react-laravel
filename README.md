@@ -23,6 +23,7 @@
 3. API - laravel framework
 
 We configure webpack for build react and vue for another folders:
+
 `mix.ts("resources/js/react/index.tsx", "public/js").react()
     .ts("resources/js/vue/main.ts", "public/control/js").vue();` 
 
