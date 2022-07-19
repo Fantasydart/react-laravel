@@ -8,7 +8,7 @@
 </p>
 
 ## How to use project
-1. `composer instal`
+1. `composer install`
 
 2. `npm i` or `yarn add`
 
@@ -16,6 +16,15 @@
 
 4. second terminal `php artisan serve` (you php webserver backend)
 
+
+## Separation front, admin and api
+1. Front - it's on react.js + ts
+2. Admin panel - vue 3 + ts
+3. API - laravel framework
+
+We configure webpack for build react and vue for another folders:
+`mix.ts("resources/js/react/index.tsx", "public/js").react()
+    .ts("resources/js/vue/main.ts", "public/control/js").vue();` 
 
 
 ## About Laravel
