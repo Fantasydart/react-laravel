@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+<p align="center"><a href="https://ru.reactjs.org/" target="_blank" style="font-size: 60px;color: #61dafb;">React</a></p>
+
+
+
 ## How to use project
 1. `composer install`
 
