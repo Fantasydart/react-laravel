@@ -2,13 +2,22 @@ import Header from "./components/Header";
 import Categories from "./components/Categories";
 import Sort from "./components/Sort";
 import PizzaList from "./components/PizzaList";
-import {useState} from "react";
-import pizzas from './pizzas'
+import {useEffect, useState} from "react";
 import React from 'react'
-
+import pizzaServices from './api/pizza.services'
+import {iPizza} from "./shared/types";
 
 function App() {
-    const [pizza, setPizza] = useState(pizzas)
+    const [pizza, setPizza] = useState<iPizza[]>([])
+
+    useEffect(()=>{
+        const response = pizzaServices.getPizzas()
+        response.then((value)=>{
+            setPizza(value)
+        })
+    },[])
+
+
     return (
         <div className="wrapper">
             <Header/>
