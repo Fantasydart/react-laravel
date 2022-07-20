@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/App.tsx":
-/*!******************************!*\
-  !*** ./resources/js/App.tsx ***!
-  \******************************/
+/***/ "./resources/js/react/App.tsx":
+/*!************************************!*\
+  !*** ./resources/js/react/App.tsx ***!
+  \************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -32,17 +32,17 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 
-var Header_1 = __importDefault(__webpack_require__(/*! ./components/Header */ "./resources/js/components/Header.jsx"));
+var Header_1 = __importDefault(__webpack_require__(/*! ./components/Header */ "./resources/js/react/components/Header.jsx"));
 
-var Categories_1 = __importDefault(__webpack_require__(/*! ./components/Categories */ "./resources/js/components/Categories.jsx"));
+var Categories_1 = __importDefault(__webpack_require__(/*! ./components/Categories */ "./resources/js/react/components/Categories.jsx"));
 
-var Sort_1 = __importDefault(__webpack_require__(/*! ./components/Sort */ "./resources/js/components/Sort.jsx"));
+var Sort_1 = __importDefault(__webpack_require__(/*! ./components/Sort */ "./resources/js/react/components/Sort.jsx"));
 
-var PizzaList_1 = __importDefault(__webpack_require__(/*! ./components/PizzaList */ "./resources/js/components/PizzaList.jsx"));
+var PizzaList_1 = __importDefault(__webpack_require__(/*! ./components/PizzaList */ "./resources/js/react/components/PizzaList.jsx"));
 
 var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var pizzas_1 = __importDefault(__webpack_require__(/*! ./pizzas */ "./resources/js/pizzas.js"));
+var pizzas_1 = __importDefault(__webpack_require__(/*! ./pizzas */ "./resources/js/react/pizzas.js"));
 
 var react_2 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
@@ -71,10 +71,10 @@ exports["default"] = App;
 
 /***/ }),
 
-/***/ "./resources/js/index.tsx":
-/*!********************************!*\
-  !*** ./resources/js/index.tsx ***!
-  \********************************/
+/***/ "./resources/js/react/index.tsx":
+/*!**************************************!*\
+  !*** ./resources/js/react/index.tsx ***!
+  \**************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -93,19 +93,19 @@ var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/r
 
 var client_1 = __importDefault(__webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js"));
 
-var App_1 = __importDefault(__webpack_require__(/*! ./App */ "./resources/js/App.tsx"));
+var App_1 = __importDefault(__webpack_require__(/*! ./App */ "./resources/js/react/App.tsx"));
 
-__webpack_require__(/*! ./assets/scss/app.scss */ "./resources/js/assets/scss/app.scss");
+__webpack_require__(/*! ./assets/scss/app.scss */ "./resources/js/react/assets/scss/app.scss");
 
 var root = client_1["default"].createRoot(document.getElementById('app'));
 root.render(react_1["default"].createElement(App_1["default"], null));
 
 /***/ }),
 
-/***/ "./resources/js/components/Categories.jsx":
-/*!************************************************!*\
-  !*** ./resources/js/components/Categories.jsx ***!
-  \************************************************/
+/***/ "./resources/js/react/components/Categories.jsx":
+/*!******************************************************!*\
+  !*** ./resources/js/react/components/Categories.jsx ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -157,17 +157,17 @@ var Categories = function Categories() {
 
 /***/ }),
 
-/***/ "./resources/js/components/Header.jsx":
-/*!********************************************!*\
-  !*** ./resources/js/components/Header.jsx ***!
-  \********************************************/
+/***/ "./resources/js/react/components/Header.jsx":
+/*!**************************************************!*\
+  !*** ./resources/js/react/components/Header.jsx ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _assets_img_pizza_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/pizza-logo.svg */ "./resources/js/assets/img/pizza-logo.svg");
+/* harmony import */ var _assets_img_pizza_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/pizza-logo.svg */ "./resources/js/react/assets/img/pizza-logo.svg");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -238,10 +238,10 @@ function Header() {
 
 /***/ }),
 
-/***/ "./resources/js/components/PizzaItem.jsx":
-/*!***********************************************!*\
-  !*** ./resources/js/components/PizzaItem.jsx ***!
-  \***********************************************/
+/***/ "./resources/js/react/components/PizzaItem.jsx":
+/*!*****************************************************!*\
+  !*** ./resources/js/react/components/PizzaItem.jsx ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -356,10 +356,10 @@ var PizzaItem = function PizzaItem(_ref) {
 
 /***/ }),
 
-/***/ "./resources/js/components/PizzaList.jsx":
-/*!***********************************************!*\
-  !*** ./resources/js/components/PizzaList.jsx ***!
-  \***********************************************/
+/***/ "./resources/js/react/components/PizzaList.jsx":
+/*!*****************************************************!*\
+  !*** ./resources/js/react/components/PizzaList.jsx ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _PizzaItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PizzaItem */ "./resources/js/components/PizzaItem.jsx");
+/* harmony import */ var _PizzaItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PizzaItem */ "./resources/js/react/components/PizzaItem.jsx");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
@@ -394,10 +394,10 @@ var PizzaList = function PizzaList(_ref) {
 
 /***/ }),
 
-/***/ "./resources/js/components/Sort.jsx":
-/*!******************************************!*\
-  !*** ./resources/js/components/Sort.jsx ***!
-  \******************************************/
+/***/ "./resources/js/react/components/Sort.jsx":
+/*!************************************************!*\
+  !*** ./resources/js/react/components/Sort.jsx ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -407,11 +407,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
 
 var Sort = function Sort() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      isFilter = _useState2[0],
+      setIsFilter = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState4 = _slicedToArray(_useState3, 2),
+      activeFilter = _useState4[0],
+      setActiveFilter = _useState4[1];
+
+  var sortList = ['популярности', 'цене', 'алфавиту'];
+  var filterName = sortList[activeFilter];
+
+  var changeListFilter = function changeListFilter(index) {
+    setActiveFilter(index);
+    setIsFilter(!isFilter);
+  };
+
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
     className: "sort",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -429,19 +459,23 @@ var Sort = function Sort() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("b", {
         children: "\u0421\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u043A\u0430 \u043F\u043E:"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
-        children: "\u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0441\u0442\u0438"
+        onClick: function onClick() {
+          return setIsFilter(!isFilter);
+        },
+        children: filterName
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    }), isFilter && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "sort__popup",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-          className: "active",
-          children: "\u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0441\u0442\u0438"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-          children: "\u0446\u0435\u043D\u0435"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-          children: "\u0430\u043B\u0444\u0430\u0432\u0438\u0442\u0443"
-        })]
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+        children: sortList.map(function (sortElement, index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+            onClick: function onClick() {
+              return changeListFilter(index);
+            },
+            className: index === activeFilter ? 'active' : '',
+            children: sortElement
+          }, index);
+        })
       })
     })]
   });
@@ -451,10 +485,10 @@ var Sort = function Sort() {
 
 /***/ }),
 
-/***/ "./resources/js/pizzas.js":
-/*!********************************!*\
-  !*** ./resources/js/pizzas.js ***!
-  \********************************/
+/***/ "./resources/js/react/pizzas.js":
+/*!**************************************!*\
+  !*** ./resources/js/react/pizzas.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -630,23 +664,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  outline: none;\n  font-family: \"Nunito\", Roboto, system-ui, Tahoma, sans-serif;\n  box-sizing: border-box;\n}\n\nhtml {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\n\nbody {\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  color: #232323;\n}\n\na,\nspan,\np,\nb,\nh1,\nh2,\nh3,\nh4,\nh5 {\n  color: #232323;\n}\n\nh1 {\n  font-size: 48px;\n}\n\nh2 {\n  font-weight: 600;\n  font-size: 28px;\n  line-height: 30px;\n}\n\na {\n  text-decoration: none;\n}\n\n.header {\n  border-bottom: 1px solid #f6f6f6;\n  padding: 40px 0;\n}\n.header .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.header__logo {\n  display: flex;\n}\n.header__logo img {\n  margin-right: 15px;\n}\n.header__logo h1 {\n  color: #181818;\n  font-size: 24px;\n  letter-spacing: 1%;\n  text-transform: uppercase;\n  font-weight: 800;\n}\n.header__logo p {\n  color: #7b7b7b;\n}\n\n.button {\n  display: inline-block;\n  background-color: #fe5f1e;\n  border-radius: 30px;\n  padding: 10px 20px;\n  min-width: 100px;\n  text-align: center;\n  cursor: pointer;\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;\n  border: 1px solid transparent;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.button,\n.button span {\n  color: #fff;\n}\n.button i,\n.button span,\n.button path,\n.button svg {\n  transition: all 0.15s ease-in-out;\n}\n.button:hover {\n  background-color: #f24701;\n}\n.button:active {\n  background-color: #de4101;\n  transform: translateY(1px);\n}\n.button--circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 32px;\n  height: 32px;\n  min-width: 32px;\n  padding: 0;\n  border-width: 2px;\n}\n.button--black {\n  background-color: #232323;\n}\n.button--black:hover, .button--black:active {\n  background-color: #3d3d3d;\n}\n.button--outline {\n  background-color: #fff;\n  border-color: #fe5f1e;\n}\n.button--outline,\n.button--outline span {\n  color: #fe5f1e;\n}\n.button--outline svg path {\n  fill: #fe5f1e;\n}\n.button--outline:hover {\n  background-color: #fe5f1e;\n}\n.button--outline:hover,\n.button--outline:hover span {\n  color: #fff;\n}\n.button--outline:hover svg path {\n  fill: #fff;\n}\n.button--outline:active {\n  background-color: #f24701;\n}\n.button__delimiter {\n  width: 1px;\n  height: 25px;\n  background-color: rgba(255, 255, 255, 0.25);\n  margin-left: 14px;\n  margin-right: 14px;\n}\n.button--add svg {\n  margin-right: 2px;\n}\n.button--add span {\n  font-weight: 600;\n  font-size: 16px;\n}\n.button--add:hover i {\n  background-color: #fff;\n  color: #fe5f1e;\n}\n.button--add i {\n  display: inline-block;\n  border-radius: 30px;\n  background-color: #fe5f1e;\n  color: #fff;\n  font-weight: 600;\n  width: 22px;\n  height: 22px;\n  font-style: normal;\n  font-size: 13px;\n  line-height: 22px;\n  position: relative;\n  top: -1px;\n  left: 3px;\n}\n.button--cart {\n  display: flex;\n  align-items: center;\n  line-height: 23px;\n  padding: 12px 25px;\n}\n.button--cart svg {\n  margin-right: 8px;\n  margin-bottom: 1px;\n}\n.button--cart span {\n  font-weight: 600;\n  font-size: 16px;\n}\n\n.categories ul {\n  display: flex;\n}\n.categories ul li {\n  background-color: #f9f9f9;\n  padding: 13px 30px;\n  border-radius: 30px;\n  margin-right: 10px;\n  font-weight: bold;\n  cursor: pointer;\n  transition: background-color 0.1s ease-in-out;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.categories ul li:hover {\n  background-color: #f4f4f4;\n}\n.categories ul li:active {\n  background-color: #ececec;\n}\n.categories ul li.active {\n  background-color: #282828;\n  color: #fff;\n}\n\n.sort {\n  position: relative;\n}\n.sort__label {\n  display: flex;\n  align-items: center;\n}\n.sort__label svg {\n  margin-right: 8px;\n}\n.sort__label b {\n  margin-right: 8px;\n}\n.sort__label span {\n  color: #fe5f1e;\n  border-bottom: 1px dashed #fe5f1e;\n  cursor: pointer;\n}\n.sort__popup {\n  position: absolute;\n  right: 0;\n  margin-top: 15px;\n  background: #ffffff;\n  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 10px 0;\n  width: 160px;\n}\n.sort__popup ul {\n  overflow: hidden;\n}\n.sort__popup ul li {\n  padding: 12px 20px;\n  cursor: pointer;\n}\n.sort__popup ul li.active, .sort__popup ul li:hover {\n  background: rgba(254, 95, 30, 0.05);\n}\n.sort__popup ul li.active {\n  font-weight: bold;\n  color: #fe5f1e;\n}\n\n.pizza-block {\n  width: 280px;\n  text-align: center;\n  margin-bottom: 65px;\n}\n.pizza-block:not(:nth-of-type(4n)) {\n  margin-right: 35px;\n}\n.pizza-block__image {\n  width: 260px;\n}\n.pizza-block__title {\n  font-size: 20px;\n  font-weight: 900;\n  letter-spacing: 1%;\n  margin-bottom: 20px;\n}\n.pizza-block__selector {\n  display: flex;\n  background-color: #f3f3f3;\n  border-radius: 10px;\n  flex-direction: column;\n  padding: 6px;\n}\n.pizza-block__selector ul {\n  display: flex;\n  flex: 1;\n}\n.pizza-block__selector ul:first-of-type {\n  margin-bottom: 6px;\n}\n.pizza-block__selector ul li {\n  padding: 8px;\n  flex: 1;\n  cursor: pointer;\n  font-weight: 600;\n  font-size: 14px;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.pizza-block__selector ul li.active {\n  background: #ffffff;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);\n  border-radius: 5px;\n  cursor: auto;\n}\n.pizza-block__bottom {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.pizza-block__price {\n  font-weight: bold;\n  font-size: 22px;\n  line-height: 27px;\n  letter-spacing: 0.015em;\n}\n\nbody {\n  background-color: #ffdf8c;\n}\n\n.wrapper {\n  width: calc(100vw - 100px);\n  height: 100%;\n  background-color: #fff;\n  margin: 50px auto;\n  border-radius: 10px;\n  max-width: 1400px;\n}\n\n.content {\n  padding: 40px 0;\n}\n.content__title {\n  margin: 35px 0;\n}\n.content__items {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n.content__top {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.container {\n  width: 90%;\n  margin: 0 auto;\n}\n.container--cart {\n  max-width: 820px;\n  margin: 90px auto;\n}\n.container--cart .content__title {\n  margin: 0;\n}\n\n.cart__top {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.cart .content__title {\n  display: flex;\n  align-items: center;\n  font-size: 32px;\n}\n.cart .content__title svg {\n  position: relative;\n  top: -2px;\n  width: 30px;\n  height: 30px;\n  margin-right: 10px;\n}\n.cart .content__title svg path {\n  stroke: #232323;\n  stroke-width: 1.9;\n}\n.cart__clear {\n  display: flex;\n  align-items: center;\n  cursor: pointer;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.cart__clear span {\n  display: inline-block;\n  margin-left: 7px;\n  color: #b6b6b6;\n  font-size: 18px;\n}\n.cart__clear span,\n.cart__clear svg,\n.cart__clear path {\n  transition: all 0.15s ease-in-out;\n}\n.cart__clear:hover svg path {\n  stroke: #373737;\n}\n.cart__clear:hover span {\n  color: #373737;\n}\n.cart__item {\n  display: flex;\n  width: 100%;\n  border-top: 1px solid #f6f6f6;\n  padding-top: 30px;\n  margin-top: 30px;\n}\n.cart__item-img {\n  display: flex;\n  align-items: center;\n  margin-right: 15px;\n  width: 10%;\n}\n.cart__item-img img {\n  width: 80px;\n  height: 80px;\n}\n.cart__item-info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  width: 40%;\n}\n.cart__item-info h3 {\n  font-weight: bold;\n  font-size: 22px;\n  line-height: 27px;\n  letter-spacing: 0.01em;\n}\n.cart__item-info p {\n  font-size: 18px;\n  color: #8d8d8d;\n}\n.cart__item-count {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 13%;\n}\n.cart__item-count-minus svg path:first-of-type {\n  display: none;\n}\n.cart__item-count b {\n  font-size: 22px;\n}\n.cart__item-price {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 33%;\n}\n.cart__item-price b {\n  font-weight: bold;\n  font-size: 22px;\n  letter-spacing: 0.01em;\n}\n.cart__item-remove {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  width: 4%;\n}\n.cart__item-remove .button {\n  border-color: #dddddd;\n}\n.cart__item-remove svg {\n  transform: rotate(45deg);\n}\n.cart__item-remove svg path {\n  fill: #d0d0d0;\n}\n.cart__item-remove .button svg {\n  width: 11.5px;\n  height: 11.5px;\n  position: relative;\n}\n.cart__item-remove .button:hover, .cart__item-remove .button:active {\n  border-color: #2a2a2a;\n  background-color: #2a2a2a;\n}\n.cart__bottom {\n  margin: 50px 0;\n}\n.cart__bottom-details {\n  display: flex;\n  justify-content: space-between;\n}\n.cart__bottom-details span {\n  font-size: 22px;\n}\n.cart__bottom-details span:last-of-type b {\n  color: #fe5f1e;\n}\n.cart__bottom-buttons {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 40px;\n}\n.cart__bottom-buttons .go-back-btn {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 210px;\n  border-color: #dddddd;\n}\n.cart__bottom-buttons .go-back-btn span {\n  color: #c3c3c3;\n  font-weight: 500;\n  font-weight: 600;\n}\n.cart__bottom-buttons .go-back-btn:hover {\n  background-color: #111111;\n  border-color: #111111;\n}\n.cart__bottom-buttons .go-back-btn:hover span {\n  color: #f6f6f6;\n}\n.cart__bottom-buttons .go-back-btn svg {\n  margin-right: 12px;\n}\n.cart__bottom-buttons .go-back-btn svg path {\n  fill: transparent;\n  stroke-width: 2;\n}\n.cart__bottom-buttons .pay-btn {\n  font-size: 16px;\n  font-weight: 600;\n  width: 210px;\n  padding: 16px;\n}\n.cart--empty {\n  margin: 0 auto;\n  width: 560px;\n  text-align: center;\n}\n.cart--empty h2 {\n  font-size: 32px;\n  margin-bottom: 10px;\n}\n.cart--empty p {\n  font-size: 18px;\n  line-height: 145.4%;\n  letter-spacing: 0.01em;\n  color: #777777;\n}\n.cart--empty icon {\n  position: relative;\n  top: 2px;\n}\n.cart--empty img {\n  display: block;\n  width: 300px;\n  margin: 45px auto 60px;\n}\n.cart--empty .button--black {\n  padding: 12px 0 14px;\n  width: 230px;\n  margin: 0 auto;\n  font-weight: 600;\n  font-size: 18px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  outline: none;\n  font-family: \"Nunito\", Roboto, system-ui, Tahoma, sans-serif;\n  box-sizing: border-box;\n}\n\nhtml {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\n\nbody {\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  color: #232323;\n}\n\na,\nspan,\np,\nb,\nh1,\nh2,\nh3,\nh4,\nh5 {\n  color: #232323;\n}\n\nh1 {\n  font-size: 48px;\n}\n\nh2 {\n  font-weight: 600;\n  font-size: 28px;\n  line-height: 30px;\n}\n\na {\n  text-decoration: none;\n}\n\n.header {\n  border-bottom: 1px solid #f6f6f6;\n  padding: 40px 0;\n}\n.header .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.header__logo {\n  display: flex;\n}\n.header__logo img {\n  margin-right: 15px;\n}\n.header__logo h1 {\n  color: #181818;\n  font-size: 24px;\n  letter-spacing: 1%;\n  text-transform: uppercase;\n  font-weight: 800;\n}\n.header__logo p {\n  color: #7b7b7b;\n}\n\n.button {\n  display: flex;\n  align-items: center;\n  -moz-column-gap: 5px;\n       column-gap: 5px;\n  background-color: #fe5f1e;\n  border-radius: 30px;\n  padding: 10px 20px;\n  min-width: 100px;\n  text-align: center;\n  cursor: pointer;\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;\n  border: 1px solid transparent;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.button,\n.button span {\n  color: #fff;\n}\n.button i,\n.button span,\n.button path,\n.button svg {\n  transition: all 0.15s ease-in-out;\n}\n.button:hover {\n  background-color: #f24701;\n}\n.button:active {\n  background-color: #de4101;\n  transform: translateY(1px);\n}\n.button--circle {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 32px;\n  height: 32px;\n  min-width: 32px;\n  padding: 0;\n  border-width: 2px;\n}\n.button--black {\n  background-color: #232323;\n}\n.button--black:hover, .button--black:active {\n  background-color: #3d3d3d;\n}\n.button--outline {\n  background-color: #fff;\n  border-color: #fe5f1e;\n}\n.button--outline,\n.button--outline span {\n  color: #fe5f1e;\n}\n.button--outline svg path {\n  fill: #fe5f1e;\n}\n.button--outline:hover {\n  background-color: #fe5f1e;\n}\n.button--outline:hover,\n.button--outline:hover span {\n  color: #fff;\n}\n.button--outline:hover svg path {\n  fill: #fff;\n}\n.button--outline:active {\n  background-color: #f24701;\n}\n.button__delimiter {\n  width: 1px;\n  height: 25px;\n  background-color: rgba(255, 255, 255, 0.25);\n  margin-left: 14px;\n  margin-right: 14px;\n}\n.button--add svg {\n  margin-right: 2px;\n}\n.button--add span {\n  font-weight: 600;\n  font-size: 16px;\n}\n.button--add:hover i {\n  background-color: #fff;\n  color: #fe5f1e;\n}\n.button--add i {\n  display: inline-block;\n  border-radius: 30px;\n  background-color: #fe5f1e;\n  color: #fff;\n  font-weight: 600;\n  width: 22px;\n  height: 22px;\n  font-style: normal;\n  font-size: 13px;\n  line-height: 22px;\n  position: relative;\n  top: -1px;\n  left: 3px;\n}\n.button--cart {\n  display: flex;\n  align-items: center;\n  line-height: 23px;\n  padding: 12px 25px;\n}\n.button--cart svg {\n  margin-right: 8px;\n  margin-bottom: 1px;\n}\n.button--cart span {\n  font-weight: 600;\n  font-size: 16px;\n}\n\n.categories ul {\n  display: flex;\n}\n.categories ul li {\n  background-color: #f9f9f9;\n  padding: 13px 30px;\n  border-radius: 30px;\n  margin-right: 10px;\n  font-weight: bold;\n  cursor: pointer;\n  transition: background-color 0.1s ease-in-out;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.categories ul li:hover {\n  background-color: #f4f4f4;\n}\n.categories ul li:active {\n  background-color: #ececec;\n}\n.categories ul li.active {\n  background-color: #282828;\n  color: #fff;\n}\n\n.sort {\n  position: relative;\n}\n.sort__label {\n  display: flex;\n  align-items: center;\n}\n.sort__label svg {\n  margin-right: 8px;\n}\n.sort__label b {\n  margin-right: 8px;\n}\n.sort__label span {\n  color: #fe5f1e;\n  border-bottom: 1px dashed #fe5f1e;\n  cursor: pointer;\n}\n.sort__popup {\n  position: absolute;\n  right: 0;\n  margin-top: 15px;\n  background: #ffffff;\n  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 10px 0;\n  width: 160px;\n}\n.sort__popup ul {\n  overflow: hidden;\n}\n.sort__popup ul li {\n  padding: 12px 20px;\n  cursor: pointer;\n}\n.sort__popup ul li.active, .sort__popup ul li:hover {\n  background: rgba(254, 95, 30, 0.05);\n}\n.sort__popup ul li.active {\n  font-weight: bold;\n  color: #fe5f1e;\n}\n\n.pizza-block {\n  width: 280px;\n  text-align: center;\n  margin-bottom: 65px;\n}\n.pizza-block:not(:nth-of-type(4n)) {\n  margin-right: 35px;\n}\n.pizza-block__image {\n  width: 260px;\n}\n.pizza-block__title {\n  font-size: 20px;\n  font-weight: 900;\n  letter-spacing: 1%;\n  margin-bottom: 20px;\n}\n.pizza-block__selector {\n  display: flex;\n  background-color: #f3f3f3;\n  border-radius: 10px;\n  flex-direction: column;\n  padding: 6px;\n}\n.pizza-block__selector ul {\n  display: flex;\n  flex: 1;\n}\n.pizza-block__selector ul:first-of-type {\n  margin-bottom: 6px;\n}\n.pizza-block__selector ul li {\n  padding: 8px;\n  flex: 1;\n  cursor: pointer;\n  font-weight: 600;\n  font-size: 14px;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.pizza-block__selector ul li.active {\n  background: #ffffff;\n  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);\n  border-radius: 5px;\n  cursor: auto;\n}\n.pizza-block__bottom {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.pizza-block__price {\n  font-weight: bold;\n  font-size: 22px;\n  line-height: 27px;\n  letter-spacing: 0.015em;\n}\n\nbody {\n  background-color: #ffdf8c;\n}\n\n.wrapper {\n  width: calc(100vw - 100px);\n  height: 100%;\n  background-color: #fff;\n  margin: 50px auto;\n  border-radius: 10px;\n  max-width: 1400px;\n}\n\n.content {\n  padding: 40px 0;\n}\n.content__title {\n  margin: 35px 0;\n}\n.content__items {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr 1fr;\n}\n.content__top {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.container {\n  width: 90%;\n  margin: 0 auto;\n}\n.container--cart {\n  max-width: 820px;\n  margin: 90px auto;\n}\n.container--cart .content__title {\n  margin: 0;\n}\n\n.cart__top {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.cart .content__title {\n  display: flex;\n  align-items: center;\n  font-size: 32px;\n}\n.cart .content__title svg {\n  position: relative;\n  top: -2px;\n  width: 30px;\n  height: 30px;\n  margin-right: 10px;\n}\n.cart .content__title svg path {\n  stroke: #232323;\n  stroke-width: 1.9;\n}\n.cart__clear {\n  display: flex;\n  align-items: center;\n  cursor: pointer;\n  -webkit-touch-callout: none; /* iOS Safari */\n  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */\n  user-select: none; /* Non-prefixed version, currently\n             supported by Chrome, Opera and Firefox */\n}\n.cart__clear span {\n  display: inline-block;\n  margin-left: 7px;\n  color: #b6b6b6;\n  font-size: 18px;\n}\n.cart__clear span,\n.cart__clear svg,\n.cart__clear path {\n  transition: all 0.15s ease-in-out;\n}\n.cart__clear:hover svg path {\n  stroke: #373737;\n}\n.cart__clear:hover span {\n  color: #373737;\n}\n.cart__item {\n  display: flex;\n  width: 100%;\n  border-top: 1px solid #f6f6f6;\n  padding-top: 30px;\n  margin-top: 30px;\n}\n.cart__item-img {\n  display: flex;\n  align-items: center;\n  margin-right: 15px;\n  width: 10%;\n}\n.cart__item-img img {\n  width: 80px;\n  height: 80px;\n}\n.cart__item-info {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  width: 40%;\n}\n.cart__item-info h3 {\n  font-weight: bold;\n  font-size: 22px;\n  line-height: 27px;\n  letter-spacing: 0.01em;\n}\n.cart__item-info p {\n  font-size: 18px;\n  color: #8d8d8d;\n}\n.cart__item-count {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 13%;\n}\n.cart__item-count-minus svg path:first-of-type {\n  display: none;\n}\n.cart__item-count b {\n  font-size: 22px;\n}\n.cart__item-price {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 33%;\n}\n.cart__item-price b {\n  font-weight: bold;\n  font-size: 22px;\n  letter-spacing: 0.01em;\n}\n.cart__item-remove {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  width: 4%;\n}\n.cart__item-remove .button {\n  border-color: #dddddd;\n}\n.cart__item-remove svg {\n  transform: rotate(45deg);\n}\n.cart__item-remove svg path {\n  fill: #d0d0d0;\n}\n.cart__item-remove .button svg {\n  width: 11.5px;\n  height: 11.5px;\n  position: relative;\n}\n.cart__item-remove .button:hover, .cart__item-remove .button:active {\n  border-color: #2a2a2a;\n  background-color: #2a2a2a;\n}\n.cart__bottom {\n  margin: 50px 0;\n}\n.cart__bottom-details {\n  display: flex;\n  justify-content: space-between;\n}\n.cart__bottom-details span {\n  font-size: 22px;\n}\n.cart__bottom-details span:last-of-type b {\n  color: #fe5f1e;\n}\n.cart__bottom-buttons {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 40px;\n}\n.cart__bottom-buttons .go-back-btn {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 210px;\n  border-color: #dddddd;\n}\n.cart__bottom-buttons .go-back-btn span {\n  color: #c3c3c3;\n  font-weight: 500;\n  font-weight: 600;\n}\n.cart__bottom-buttons .go-back-btn:hover {\n  background-color: #111111;\n  border-color: #111111;\n}\n.cart__bottom-buttons .go-back-btn:hover span {\n  color: #f6f6f6;\n}\n.cart__bottom-buttons .go-back-btn svg {\n  margin-right: 12px;\n}\n.cart__bottom-buttons .go-back-btn svg path {\n  fill: transparent;\n  stroke-width: 2;\n}\n.cart__bottom-buttons .pay-btn {\n  font-size: 16px;\n  font-weight: 600;\n  width: 210px;\n  padding: 16px;\n}\n.cart--empty {\n  margin: 0 auto;\n  width: 560px;\n  text-align: center;\n}\n.cart--empty h2 {\n  font-size: 32px;\n  margin-bottom: 10px;\n}\n.cart--empty p {\n  font-size: 18px;\n  line-height: 145.4%;\n  letter-spacing: 0.01em;\n  color: #777777;\n}\n.cart--empty icon {\n  position: relative;\n  top: 2px;\n}\n.cart--empty img {\n  display: block;\n  width: 300px;\n  margin: 45px auto 60px;\n}\n.cart--empty .button--black {\n  padding: 12px 0 14px;\n  width: 230px;\n  margin: 0 auto;\n  font-weight: 600;\n  font-size: 18px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -728,10 +762,10 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ "./resources/js/assets/img/pizza-logo.svg":
-/*!************************************************!*\
-  !*** ./resources/js/assets/img/pizza-logo.svg ***!
-  \************************************************/
+/***/ "./resources/js/react/assets/img/pizza-logo.svg":
+/*!******************************************************!*\
+  !*** ./resources/js/react/assets/img/pizza-logo.svg ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -35453,19 +35487,19 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./resources/js/assets/scss/app.scss":
-/*!*******************************************!*\
-  !*** ./resources/js/assets/scss/app.scss ***!
-  \*******************************************/
+/***/ "./resources/js/react/assets/scss/app.scss":
+/*!*************************************************!*\
+  !*** ./resources/js/react/assets/scss/app.scss ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./app.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/js/assets/scss/app.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./app.scss */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./resources/js/react/assets/scss/app.scss");
 
             
 
@@ -35474,11 +35508,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_use_3_app_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -35849,7 +35883,7 @@ module.exports = function (list, options) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/js/index.tsx");
+/******/ 	var __webpack_exports__ = __webpack_require__("./resources/js/react/index.tsx");
 /******/ 	
 /******/ })()
 ;
