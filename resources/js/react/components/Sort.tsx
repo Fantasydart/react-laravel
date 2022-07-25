@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 
 const Sort = () => {
 
-    const [isFilter, setIsFilter] = useState(false)
-    const [activeFilter, setActiveFilter] = useState(0)
-    const sortList = ['популярности', 'цене', 'алфавиту']
+    const [isFilter, setIsFilter] = useState<boolean>(false)
+    const [activeFilter, setActiveFilter] = useState<number>(0)
+    const sortList:string[] = ['популярности', 'цене', 'алфавиту']
     let filterName = sortList[activeFilter]
 
     const changeListFilter = (index) => {

@@ -4,7 +4,6 @@ import {iPizza} from "../shared/types";
 export default {
     async getPizzas() {
         try {
-            // 👇️ const data: GetUsersResponse
             const { data } = await axios.get<iPizza[]>(
                 'https://62d84db690883139358f2326.mockapi.io/pizzas',
                     {
@@ -13,7 +12,6 @@ export default {
                         },
                     },
             );
-
             return data
         } catch (error) {
             if (axios.isAxiosError(error)) {

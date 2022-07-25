@@ -9,11 +9,13 @@ import {iPizza} from "./shared/types";
 
 function App() {
     const [pizza, setPizza] = useState<iPizza[]>([])
+    const [isLoadingPizza, setIsLoadingPizza] = useState<boolean>(true)
 
     useEffect(()=>{
         const response = pizzaServices.getPizzas()
         response.then((value)=>{
             setPizza(value)
+            setIsLoadingPizza(false)
         })
     },[])
 
@@ -28,7 +30,7 @@ function App() {
                         <Sort/>
                     </div>
                     <h2 className="content__title">Все пиццы</h2>
-                    <PizzaList items={pizza} />
+                    <PizzaList items={pizza} isLoading={isLoadingPizza}/>
                 </div>
             </div>
         </div>
