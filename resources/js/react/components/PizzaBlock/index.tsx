@@ -1,10 +1,20 @@
 import React, {useState} from 'react';
-const PizzaItem = ({imageUrl, title, types, sizes, price}) => {
 
-    const [pizzaCount, setPizzaCount] = useState(0)
-    const [activeType, setActiveType] = useState(0)
-    const [pizzaSize, setPizzaSize] = useState(0)
-    const typeNames = ['Тонкое', 'Традиционное']
+
+type PizzaItem = {
+    imageUrl: string,
+    title: string,
+    types: number[],
+    sizes: number[],
+    price: number[]
+}
+
+const Index = ({imageUrl, title, types, sizes, price}:PizzaItem) => {
+
+    const [pizzaCount, setPizzaCount] = useState<number>(0)
+    const [activeType, setActiveType] = useState<number>(0)
+    const [pizzaSize, setPizzaSize] = useState<number>(0)
+    const typeNames:string[] = ['Тонкое', 'Традиционное']
 
     return (
         <div className="pizza-block">
@@ -67,4 +77,4 @@ const PizzaItem = ({imageUrl, title, types, sizes, price}) => {
     );
 };
 
-export default PizzaItem;
+export default Index;
