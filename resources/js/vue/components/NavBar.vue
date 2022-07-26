@@ -1,5 +1,5 @@
 <template>
-<nav class="nav">
+<nav class="nav-main">
     <div class="nav-top">
         <img src="../assets/pizza-logo.svg" alt="">
         <div class="nav-top__desc">
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-    .nav {
+    .nav-main {
         width: 300px;
         height: 100vh;
         box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(255, 255, 255, 0.24);
@@ -52,6 +52,7 @@ export default {
         margin: 0;
         padding: 0;
         color: white;
+        font-size: 18px;
     }
 
     .nav-center ul {
@@ -78,7 +79,7 @@ export default {
     .nav-center ul li:hover a {
         padding: 14px 25px;
     }
-    
+
     .nav-center ul li a.router-link-active {
         background-color: #4a4a4a;
     }

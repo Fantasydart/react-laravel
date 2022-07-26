@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "autoprefixer": "10.4.5",
+    "bootstrap": "^5.2.0",
     "global": "^4.4.0",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.0",
